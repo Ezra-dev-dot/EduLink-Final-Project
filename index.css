@@ -123,7 +123,11 @@ body{
 }
 .text-overlays button{
     margin-left: 180px;
-    border-radius: 8px;
+    background-color: yellow;
+    font-size: x-large;
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: 400px;
 }
 .text-overlays{
     border-radius: 9px;
