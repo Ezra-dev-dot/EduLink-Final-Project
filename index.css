@@ -1,6 +1,136 @@
+*{
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+}
+h6, h4{
+    font-weight: 400px;
+    font-size: larger;
+}
 img{
-    width: auto;
+    width: 1800px;
+    height: 750px;
+    
 }
 body{
     color: black;
 }
+.landing-page{
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    margin: auto;
+}
+.Landing-page img {
+    width: 100%;
+    height: auto;
+    display: block;
+    color-scheme: rgba(0, 0, 0, 0.5);
+}
+.text-overlay {
+    position: absolute;
+    top: 25%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    width: 80%; /* Adjust width */
+    background: rgba(0, 0, 0, 0.5); /* Optional dark overlay */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text-overlay h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-overlay h6 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* Basic Navbar Styling */
+.navbar {
+    background-color: #160f74;
+    padding: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0px;
+    margin-left: 190px;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+/* Dropdown Styling */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #160f74;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none; /* Initially hidden */
+    width: 150px;
+}
+
+.dropdown-menu li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+.dropdown-menu a {
+    padding: 10px;
+    display: block;
+    color: white;
+}
+
+/* Show Dropdown on Hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Hover Effect */
+.nav-links a:hover,
+.dropdown-menu a:hover {
+    background: #555;
+}
+.text-overlays h4{
+    margin-left: 8px;
+    color: aliceblue;
+    font-weight: 900px;
+    font-size: xx-large;
+}
+.text-overlays h5{
+    font-size: x-large;
+}
+.text-overlays button{
+    margin-left: 180px;
+    border-radius: 8px;
+}
+.text-overlays{
+    border-radius: 9px;
+   /*background-color: #555;*/
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+
+
