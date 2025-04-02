@@ -2,10 +2,25 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family:'poppins' , sans-serif;
+    background: #001660;
 }
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(teal,purple);
-    background-repeat: no-repeat;
-    po
+.contact-container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+}
+form{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2px 4px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+
 }
