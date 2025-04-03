@@ -7,13 +7,18 @@
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
+    <div class="back"><button type="submit"><a href="index.html">back</a></button></div>
     <section class="Contact-container">
-        <form>
+
+            <form action="https://api.web3forms.com/submit" method="POST">
                 <h2>Get In Touch</h2>
-                <input type="name" id="name" placeholder="Your Name" required>
-                <input type="email" id="email" placeholder="Your email" required>
-                <input type="number" id="number" placeholder="Your number" required>
-                <textarea  id="message" rows="4" placeholder="How can i help you" required></textarea>
+                <input type="hidden" name="access_key" value="144b2ad5-57bd-4885-a3dd-4927cd986c6d">
+                <input type="name"  name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <input type="number" name="phone number" placeholder="Your number" required>
+                <textarea  name="message" rows="4" placeholder="How can i help you" required></textarea>
+                <input type="hidden" name="redirect" value="https://web3forms.com/success">
                 <button type="submit">submit</button>
+            </form>
 </body>
 </html>
