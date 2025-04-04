@@ -85,6 +85,15 @@ button{
     display: flex;
     width: 99.5%;
     position: relative;
-    top: 70vh;
+    top: 75vh;
 }
-.flex{}
+.visit-page{
+    width: 99.5%;
+    background: rgb(250, 213, 166);
+    position: relative;
+    top: 570px;
+}
+iframe{
+    margin-left: 500px;
+    border-radius: 10px;
+}
