@@ -80,13 +80,6 @@ button{
 .container-events img{
     padding: 20px 20px;
 }
-.footer-container{
-    direction: ltr;
-    display: flex;
-    width: 99.5%;
-    position: relative;
-    top: 75vh;
-}
 .visit-page{
     width: 99.5%;
     background: rgb(250, 213, 166);
@@ -96,4 +89,13 @@ button{
 iframe{
     margin-left: 500px;
     border-radius: 10px;
+}
+
+
+
+/*FOOTER*/
+footer{
+    width: 100%;
+    padding: 70px 30px 30px 30px ;
+    
 }
