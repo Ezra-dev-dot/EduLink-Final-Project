@@ -4,6 +4,32 @@
     box-sizing: border-box;
     font-family:'poppins' , sans-serif;
 }
+nav{
+    padding: 45px;
+    margin-bottom: 4px;
+    background-color: #fff;
+}
+.Logo{
+    position: absolute;
+    top: 2%;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float: left;
+    margin-left: 150px;
+}
+li a{
+    left: 80%;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    position: relative;
+    margin-left: 1px;
+}
 body{
     background: #001660;
 }

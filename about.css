@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+nav{
+    padding: 45px;
+    margin-bottom: 4px;
+}
+.Logo{
+    position: absolute;
+    top: 2%;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float: left;
+    margin-left: 150px;
+}
+li a{
+    left: 80%;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    position: relative;
+    margin-left: 1px;
+}
+.background img{
+    width: 100%;
+    filter: brightness(50%);
+}
+.text-overlay h3{
+    margin-left: 715px;
+    margin-bottom: 20px;
+}
+.text-overlay{
+    position: absolute;
+    top: 20%;
+    margin: 20px 20px 20px 20px;
+    font-size: 40px;
+    color: aliceblue;
+    display: ;
+}
+.side-left{
+background-color: bisque;
+}
+.side-right{
+background-color: black;
+}
+.containers{
+    position: relative;
+}

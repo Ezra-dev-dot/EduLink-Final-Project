@@ -51,6 +51,7 @@ li a{
     font-size: 30px;
 }
 button{
+    cursor: pointer;
     font-weight: 900px;
     position: relative;
     float: right;
@@ -79,6 +80,7 @@ button{
 }
 .container-events img{
     padding: 20px 20px;
+    cursor: pointer;
 }
 .visit-page{
     width: 99.5%;
@@ -95,7 +97,29 @@ iframe{
 
 /*FOOTER*/
 footer{
+    top: 800px;
+    position: relative;
     width: 100%;
-    padding: 70px 30px 30px 30px ;
+    display: ;
+    padding: 70px;
+    background-color: blanchedalmond;
+}
+.list{
+
+}
+.list li{
+
+}
+.footercontainer{
+    display: flex;
     
+    padding: 50px;
+}
+.footercontent{
+    margin: 10px 10px 10px 10px;
+    
+}
+.
+.bottombar{
+    text-align: center;
 }
