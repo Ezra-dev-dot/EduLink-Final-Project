@@ -3,6 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: 'poppins',sans-serif;
+    color: black;
 }
 nav{
     padding: 45px;
@@ -83,43 +84,64 @@ button{
     cursor: pointer;
 }
 .visit-page{
+    font-size: 20px;
     width: 99.5%;
     background: rgb(250, 213, 166);
     position: relative;
     top: 570px;
 }
+.alumini-sec{
+    background: url("Assets/Background-img\ reasons.avif");
+}
+#logovisit{
+    font-size: 70px;
+}
+.visit-page-left{
+    margin-top: 20px;
+    font-size: larger;
+    
+}
+.visit-page-right{
+    position: relative;
+    margin-left: 300px;
+}
 iframe{
+    size: ;
     margin-left: 500px;
     border-radius: 10px;
 }
-
-
-
-/*FOOTER*/
-footer{
-    top: 800px;
-    position: relative;
-    width: 100%;
-    display: ;
-    padding: 70px;
-    background-color: blanchedalmond;
-}
-.list{
-
-}
-.list li{
-
-}
-.footercontainer{
-    display: flex;
-    
-    padding: 50px;
-}
-.footercontent{
-    margin: 10px 10px 10px 10px;
-    
-}
-.
-.bottombar{
+.footer {
+    margin-top: 500px;
+    background-color: #222;
+    color: #fff;
+    padding: 30px 0;
     text-align: center;
-}
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 20px 0 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-links li a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links li a:hover {
+    color: #fff;
+  }
+  
